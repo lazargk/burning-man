@@ -1,0 +1,167 @@
+.container {
+  max-width: 1172px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 10px;
+  padding-right: 10px;
+
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  /* font-family: "Open Sans", sans-serif; */
+}
+
+.header {
+  background-image: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+
+  min-height: 837px;
+
+  color: #fff;
+
+  padding-top: 57px;
+  
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  font-size: 14px;
+  line-height: 21px;
+
+  text-transform: uppercase;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+}
+
+.main-link {
+  margin-right: 69px;
+}
+
+.logo-img {
+  width: 31px;
+  height: 48px;
+}
+
+.menu-list {
+  width: 305px;
+  height: 21px;
+
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-text {
+  font-size: 30px;
+  line-height: 45px;
+  text-transform: uppercase;
+
+  margin-top: 216px;
+}
+
+.header-title {
+  font-size: 100px;
+  line-height: 151px;
+  text-transform: uppercase;
+
+  margin-top: 3px;
+}
+
+.header-btn {
+  width: 238px;
+  height: 57px;
+  margin-top: 19px;
+
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-btn span {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  color: #000;
+}
+
+.about-title {
+  margin-top: 113px;
+
+  font-size: 50px;
+  line-height: 75px;
+  text-transform: uppercase;
+}
+
+.articles {
+  margin-top: 58px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-item {
+  width: 564px;
+}
+
+.article-title {
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.article-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+
+  min-height: 250px;
+  margin-bottom: 9px;
+  margin-top: 19px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  color: #000;
+
+  margin-top: 114px;
+}
+
+.footer p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+
+  display: inline-block;
+
+  margin-bottom: 80px;
+}
+
+.footer p + p {
+  margin-left: 55px;
+}
